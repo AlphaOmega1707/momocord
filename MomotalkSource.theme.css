@@ -230,6 +230,9 @@
      background-color: #4ABDD8;
      width: 50px;
 }
+ .expandedFolderBackground_bc7085 {
+     background-color: var(--serverbar) !important;
+}
 /* Calls */
  .root_dd069c {
      background-color:var(--callcolor) !important;
