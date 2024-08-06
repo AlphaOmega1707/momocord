@@ -13,6 +13,8 @@
 	
 	--messagefontcolor: #FFFFFF;
 	
+	--mention: #ffc0cb;
+	
 	--username: #3F444A;
 	
 	--sidebar: #505C72;
@@ -89,6 +91,10 @@
     color:var(--messagefontcolor);
 }
 
+/* Mention color */
+.mention {
+	color:var(--mention);
+}
 
 /* Usernames */
 .username_f9f2ca{
@@ -295,14 +301,12 @@ display:none;
 
 /* Server list */
 .scroller_fea3ef {
-background-color:var(--serverbar) !important;
-	
+	background-color:var(--serverbar) !important;
 }
 
 .guildSeparator_d0c57e {
 	background-color: #4ABDD8;
     width: 50px;
-	
 }
 
 .expandedFolderBackground_bc7085 {
