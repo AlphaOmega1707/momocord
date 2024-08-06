@@ -626,7 +626,6 @@ background-color:var(--topbar) !important;
 }
 
 .container_b558d0:has(.reaction_ec6b19 )  {
-  background-color:var(--senseimessagebubble);
     width: fit-content;
     border-radius: 10px;
     padding: 5px 15px; 
