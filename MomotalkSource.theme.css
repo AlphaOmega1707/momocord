@@ -39,7 +39,9 @@
 	--serverbar: #303C51;
 	
 	--calltxt: #00ffff;
-
+	
+	--vcbuttons: #fa8dd6;
+	
 }
 
 
@@ -363,10 +365,6 @@ display:none;
     filter: brightness(0.8);
 }
 
-.subtext_be40e6 {
-	color:var(--calltxt);
-}
-
 .primaryDark_ef18ee  {
 	background-color:var(--callbuttons) !important;
 }
@@ -377,6 +375,13 @@ display:none;
 }
 .buttonColor_adcaac{
 	 background-color:#303C51 !important;
+}
+.subtext_be40e6 {
+	color:var(--calltxt);
+}
+
+.button_adcaac .buttonColor_adcaac, .button_adcaac.buttonColor_adcaac {
+	background-color:var(--vcbuttons);
 }
 
 /* Screenshare */
