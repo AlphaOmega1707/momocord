@@ -169,7 +169,6 @@
 
 /* Little arrow in message containers for welcome messages and all*/
 .isSystemMessage_f9f2ca::after{
-
     content: "\25BA";
 	color:var(--messagebubble);
     font-size: 15px;
@@ -183,7 +182,6 @@
 
 /* Little arrow in message containers for replies!*/
 [data-is-self="false"] .hasReply_f9f2ca::after {
-
     content: "\25BA";
 	color:var(--messagebubble);
     font-size: 15px;
@@ -197,23 +195,35 @@
 
 /* Avatar size */
 
-.avatar_f9f2ca{
- height: 55px;
- width: 55px;
+.avatar_f9f2ca {
+	height: 55px;
+	width: 55px;
+}
+
+/* Move Profile Pic */
+.avatar_f9f2ca {
+    left: unset;
+    right: 4px;
+}
+
+/* Move Decoration */
+.avatarDecoration_f9f2ca {
+    left: unset;
+    right: 0px;
 }
 
 /* Decoration size */
 
 .avatarDecoration_f9f2ca{
- height: 65px;
- width: 65px;
+	height: 65px;
+	width: 65px;
 }
 
 /* Title Bar */
 .titleBar_a934d8 {
-background-color:var(--momotalkbanner);
-height: 37px;
-margin-top: 1px;
+	background-color:var(--momotalkbanner);
+	height: 37px;
+	margin-top: 1px;
 }
 
 .winButton_a934d8 {
@@ -562,15 +572,15 @@ background-color:var(--topbar) !important;
 
 
 /* Move Profile Pic */
-[data-is-self="true"] .avatar_f9f2ca{
-    left: unset;
-    right: 4px;
+[data-is-self="false"] .avatar_f9f2ca {
+    left: var(--custom-message-margin-horizontal);
+    right: auto;
 }
 
 /* Move Decoration */
-[data-is-self="true"] .avatarDecoration_f9f2ca{
-    left: unset;
-    right: 0px;
+[data-is-self="false"] .avatarDecoration_f9f2ca{
+    left: calc(var(--custom-message-margin-horizontal) - (var(--custom-message-avatar-decoration-size) - var(--custom-message-avatar-size))/2);
+    right: auto;
 }
 
 
