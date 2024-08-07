@@ -381,7 +381,7 @@ display:none;
 }
 
 .button_adcaac .buttonColor_adcaac, .button_adcaac.buttonColor_adcaac {
-	background-color:var(--vcbuttons);
+	background-color:var(--vcbuttons) !important;
 }
 
 /* Screenshare */
