@@ -120,8 +120,8 @@
 
 /* Message container for images */
 [data-is-self="false"] .container_b558d0:has(.visualMediaItemContainer_cda674),
-.container_b558d0:has(.embedWrapper_b558d0),
-.container_b558d0:has(.clickableSticker_a1debe) {
+[data-is-self="false"] .container_b558d0:has(.embedWrapper_b558d0),
+[data-is-self="false"] .container_b558d0:has(.clickableSticker_a1debe) {
     bottom: 5px;
 	background-color:var(--messagebubble);
     border-radius: 10px;
