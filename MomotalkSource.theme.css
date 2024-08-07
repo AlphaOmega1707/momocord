@@ -121,10 +121,8 @@
 /* Message container for images */
 [data-is-self="false"] .container_b558d0:has(.visualMediaItemContainer_cda674),
 .container_b558d0:has(.embedWrapper_b558d0),
-.container_b558d0:has(.clickableSticker_a1debe)  {
-
+.container_b558d0:has(.clickableSticker_a1debe) {
     bottom: 5px;
-    
 	background-color:var(--messagebubble);
     border-radius: 10px;
     padding: 5px 15px; 
@@ -135,8 +133,8 @@
     transform: translate(0px, -12px);
 }
 
-[data-is-self="false"] .container_b558d0:has(.reaction_ec6b19 ) {
-	bottom: 5px;
+[data-is-self="false"] .container_b558d0:has(.reaction_ec6b19) {
+    bottom: 5px;
     border-radius: 10px;
     padding: 5px 15px; 
     padding-top: 20px;
@@ -610,10 +608,10 @@ background-color:var(--topbar) !important;
 }
 
 /* Self Message container for images */
- .container_b558d0:has(.visualMediaItemContainer_cda674),
+.container_b558d0:has(.visualMediaItemContainer_cda674),
 .container_b558d0:has(.embedWrapper_b558d0),
-.container_b558d0:has(.clickableSticker_a1debe)  {
-  background-color:var(--senseimessagebubble);
+.container_b558d0:has(.clickableSticker_a1debe) {
+    background-color:var(--senseimessagebubble);
     width: fit-content;
     border-radius: 10px;
     padding: 5px 15px; 
@@ -625,7 +623,7 @@ background-color:var(--topbar) !important;
     bottom: 10px;
 }
 
-.container_b558d0:has(.reaction_ec6b19 )  {
+.container_b558d0:has(.reaction_ec6b19)  {
     width: fit-content;
     border-radius: 10px;
     padding: 5px 15px; 
@@ -640,7 +638,6 @@ background-color:var(--topbar) !important;
 
 /* Trying to make replies appear right auwfigdfuighdfudg (that actually was suprisingly easy wow! hey, what are you doing all the way here?!!) */
 [data-is-self="true"] .repliedMessage_f9f2ca {
-
     width: fit-content;
     margin-left: auto;
     margin-right: 30px;	
