@@ -108,15 +108,16 @@
 .contents_f9f2ca .markup_f8f345 {
     display: inline-block;
     z-index: 1; 
-	background-color:var(--messagebubble);
+	background-color:var(--senseimessagebubble);
     border-radius: 10px;
     padding: 5px 15px; 
     margin-left: 12px;     
 	max-width: 600px;
 }
 
-
-
+[data-is-self="false"]  .contents_f9f2ca .markup_f8f345 {
+	background-color:var(--messagebubble);
+}
 
 /* Message container for images */
 [data-is-self="false"] .container_b558d0:has(.visualMediaItemContainer_cda674),
