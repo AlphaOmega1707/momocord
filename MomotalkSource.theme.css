@@ -108,16 +108,22 @@
 .contents_f9f2ca .markup_f8f345 {
     display: inline-block;
     z-index: 1; 
-	background-color:var(--senseimessagebubble);
+    background-color:var(--senseimessagebubble);
     border-radius: 10px;
     padding: 5px 15px; 
     margin-left: 12px;     
 	max-width: 600px;
 }
 
-[data-is-self="false"]  .contents_f9f2ca .markup_f8f345 {
-	background-color:var(--messagebubble);
+/* Bs patch for uploads idk */
+[data-is-self="false"] .contents_f9f2ca .markup_f8f345 {
+    background-color:var(--messagebubble);
 }
+
+.attachment_b52bef {
+	background-color:var(--senseimessagebubble);
+}
+
 
 /* Message container for images */
 [data-is-self="false"] .container_b558d0:has(.visualMediaItemContainer_cda674),
@@ -191,7 +197,7 @@
 
 /* Avatar size */
 
-.avatar_f9f2ca{
+[data-is-self="false"] .avatar_f9f2ca{
  height: 55px;
  width: 55px;
 }
@@ -556,7 +562,7 @@ background-color:var(--topbar) !important;
 
 
 /* Move Profile Pic */
-[data-is-self="true"] .avatar_f9f2ca{
+.avatar_f9f2ca{
     left: unset;
     right: 4px;
 }
