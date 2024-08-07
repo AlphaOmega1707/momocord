@@ -197,7 +197,7 @@
 
 /* Avatar size */
 
-[data-is-self="false"] .avatar_f9f2ca{
+.avatar_f9f2ca{
  height: 55px;
  width: 55px;
 }
@@ -562,7 +562,7 @@ background-color:var(--topbar) !important;
 
 
 /* Move Profile Pic */
-.avatar_f9f2ca{
+[data-is-self="true"] .avatar_f9f2ca{
     left: unset;
     right: 4px;
 }
