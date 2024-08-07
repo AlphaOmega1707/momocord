@@ -538,7 +538,7 @@ background-color:var(--topbar) !important;
 /* MAKING YOUR MESSAGES FANCY AND TO THE LEFT*/
 /* Self Message container */
 [data-is-self="true"] .contents_f9f2ca .markup_f8f345 {
-  background-color:var(--senseimessagebubble);
+    background-color:var(--senseimessagebubble);
     display: block;
     width: fit-content;
     margin-left: auto;
