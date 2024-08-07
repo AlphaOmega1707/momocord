@@ -7,6 +7,7 @@
 	--momotalkbanner: #FB90A4;
 	
 	--senseimessagebubble: #4A8AC8;
+	
 	--messagebubble: #4C5B6F;
 	
 	--text-link: #CCD3FF;
@@ -24,9 +25,11 @@
 	--searchbars: #303C51;
 
 	--callcolor: #505C72;
+	
 	--callimage: url('your image url here.png');
 
 	--callbuttons: #303C51;
+	
 	--hangup: #FB90A4;
 	
 	--bgimage: url('your image url here.png');
@@ -35,6 +38,7 @@
 	
 	--serverbar: #303C51;
 	
+	--calltxt: #00ffff;
 
 }
 
@@ -357,6 +361,10 @@ display:none;
 }
 .red_ef18ee:hover {
     filter: brightness(0.8);
+}
+
+.subtext_be40e6 {
+	color:var(--calltxt);
 }
 
 .primaryDark_ef18ee  {
