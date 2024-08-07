@@ -105,7 +105,7 @@
 }
 
 /* Message container */
-.contents_f9f2ca .markup_f8f345 {
+[data-is-self="false"] .contents_f9f2ca .markup_f8f345 {
     display: inline-block;
     z-index: 1; 
 	background-color:var(--messagebubble);
@@ -537,7 +537,7 @@ background-color:var(--topbar) !important;
 
 /* MAKING YOUR MESSAGES FANCY AND TO THE LEFT*/
 /* Self Message container */
-[data-is-self="true"] .contents_f9f2ca .markup_f8f345 {
+.contents_f9f2ca .markup_f8f345 {
     background-color:var(--senseimessagebubble);
     display: block;
     width: fit-content;
